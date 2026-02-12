@@ -6,7 +6,8 @@ import { delay, Observable, of } from 'rxjs';
 @Injectable({ providedIn: 'root' })
 export class TransactionsService {
   private readonly http = inject(HttpClient);
-  private apiUrl = 'http://localhost:3000/transactions'; // à adapter selon ton backend
+  //private apiUrl = 'http://localhost:3000/transactions'; // à adapter selon ton backend
+  private apiUrl = 'https://gestion-depenses-api-1.onrender.com/transactions'; // à adapter selon ton backend
 /*
   private transactions: Transaction[] = [
     {
