@@ -6,7 +6,8 @@ import { Category } from './categories.models';
 
 @Injectable({ providedIn: 'root' })
 export class CategoriesService {
-  private apiUrl = 'http://localhost:3000/categories';
+ // private apiUrl = 'http://localhost:3000/categories';
+  private apiUrl = 'https://gestion-depenses-api-1.onrender.com/categories';
 
   constructor(private http: HttpClient) {}
 
